@@ -41,9 +41,8 @@ function desenharJogador() {
 
 
 function desenharObstaculos() {
-    for (const obstaculo of obstaculos) {
-        ctx.fillRect(obstaculo.x, obstaculo.y, obstaculosWidth, obstaculosHeight);
-    }
+    ctx.fillStyle ='blue';
+   
 }
 
 function atualizarJogo() {
