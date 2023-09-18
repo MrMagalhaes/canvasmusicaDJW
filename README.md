@@ -16,12 +16,12 @@ body: Define o estilo para o corpo da página, como cor de fundo.
 
 # JavaScript
 
-movecarinha(e):Move o personagem esquerda/direita conforme as setas do teclado.
-jump(e): Faz o personagem pular quando a barra de espaço é pressionada.
-movealvo(): Move o obstáculo na tela.
-checkCollision(): Verifica se houve colisão entre o personagem e o obstáculo.
-gameOver(): Exibe a tela de "Perdeu o trem!" quando há colisão.
-restartGame(): Reinicia o jogo após o término.
+movecarinha(e):Move o personagem esquerda/direita conforme as setas do teclado.<br>
+jump(e): Faz o personagem pular quando a barra de espaço é pressionada.<br>
+movealvo(): Move o obstáculo na tela.<br>
+checkCollision(): Verifica se houve colisão entre o personagem e o obstáculo.<br>
+gameOver(): Exibe a tela de "Perdeu o trem!" quando há colisão.<br>
+restartGame(): Reinicia o jogo após o término.<br>
 
 <h1>Capturas de Tela e Imagens usadas</h1>
 
