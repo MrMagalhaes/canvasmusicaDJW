@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+#stickman {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 150px;position: relative;
+    width: 100px;
+    height: 150px;
+  }
+  
+.game {
+    width: 700px;
+    height: 400px;
+    margin: 20px auto;
+    background-image:url('IMG/fundo.gif'); 
+    position: relative;
+    overflow: hidden;
+}
+.carinha {
+    width: 150px;
+    height: 160px;
+    background-image: url('IMG/man11.png');
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.alvo {
+    background-image:url('IMG/alvo.png');
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+}
+
+.score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.jump {
+    transform: translateX(160%) translateY(400px); /*pulo*/
+}
+
+.game-over {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(37, 139, 114);
+}
+
+.game-over button {
+    background-color: #f1ff33;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

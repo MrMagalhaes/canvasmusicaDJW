@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Trem das Onze</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="IMG/fumaça.png">
+    </head>
+    <body>
+        <div class="game">
+            <div class="carinha"></div>
+            <div class="alvo"></div>
+            <div class="score">Pontuação: <span id="score">0</span></div>
+            <div class="game-over">
+                <p>Perdeu o trem!</p>
+                <button onclick="restartGame()">Tente Novamente</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <audio autoplay>
+            <source src="trem.mp3" type="audio/mp3">
+    </body>
+    </html>
