@@ -26,13 +26,13 @@ restartGame(): Reinicia o jogo após o término.
 <h1>Capturas de Tela e Imagens usadas</h1>
 
 Derota.<br>
-<img src="IMG/Derrota.png" width = "200" height = "200">
+<img src="IMG/Derrota.png" width = "400" height = "400">
 
 Salto e Pontuação.<br>
 <img src="IMG/salt_pont.png" width = "200" height = "200">
 
 Carinha.<br>
-<img src="IMG/man11.png" width = "200" height = "200">
+<img src="IMG/man11.png" width = "400" height = "400">
 
 Alvo.<br>
 <img src="IMG/alvo.png" width = "200" height = "200">
