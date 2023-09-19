@@ -38,7 +38,7 @@ gameOver(): Exibe a tela de "Perdeu o trem!" quando há colisão.
 
 restartGame(): Reinicia o jogo após o término.
 
-<h1>Capturas de Tela e Imagens usadas</h1>
+<h1>Capturas de Tela e Imagens usadas e Demostração</h1>
 
 Derrota.<br>
 <img src="Trenzinho/IMG/Derrota.png" width = "500" height = "400">
@@ -54,5 +54,14 @@ Alvo.<br>
 
 Tela de fundo.<br>
 <img src="Trenzinho/IMG/fundo.gif" width = "500" height = "400">
+
+
+
+
+https://github.com/MrMagalhaes/canvasmusicaDJW/assets/127852558/22afd27b-7c15-4e27-8d22-423395ecd144
+
+
+
+
 
 
